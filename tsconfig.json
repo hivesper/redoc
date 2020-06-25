@@ -5,6 +5,8 @@
     "target": "es5",
     "noImplicitAny": false,
     "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "sourceMap": true,

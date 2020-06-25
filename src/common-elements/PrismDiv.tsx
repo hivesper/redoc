@@ -1,14 +1,11 @@
 import styled, { extensionsHook } from '../styled-components';
 
+/**
+ * Based on prism-dark.css
+ */
 export const PrismDiv = styled.div`
-  /**
-  * Based on prism-dark.css
-  */
-
   code[class*='language-'],
   pre[class*='language-'] {
-    /* color: white;
-    background: none; */
     text-shadow: 0 -0.1em 0.2em black;
     text-align: left;
     white-space: pre;
@@ -81,10 +78,6 @@ export const PrismDiv = styled.div`
       text-decoration: underline;
     }
   }
-
-  /* .property.token.string {
-    color: white;
-  } */
 
   .token.operator,
   .token.entity,

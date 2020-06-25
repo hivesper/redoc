@@ -29,8 +29,8 @@ export class ErrorBoundary extends React.Component<{}, { error?: Error }> {
               <pre>{this.state.error.stack}</pre>
             </details>
           </p>
-          <small> ReDoc Version: {__REDOC_VERSION__}</small> <br />
-          <small> Commit: {__REDOC_REVISION__}</small>
+          {/* <small> ReDoc Version: {__REDOC_VERSION__}</small> <br />
+          <small> Commit: {__REDOC_REVISION__}</small> */}
         </ErrorWrapper>
       );
     }

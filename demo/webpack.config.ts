@@ -1,6 +1,6 @@
-import * as CopyWebpackPlugin from 'copy-webpack-plugin';
-import * as ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
-import * as HtmlWebpackPlugin from 'html-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
+import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { compact } from 'lodash';
 import { resolve } from 'path';
 import * as webpack from 'webpack';
